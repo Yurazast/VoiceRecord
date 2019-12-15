@@ -59,28 +59,28 @@ public class SortDisc implements Command {
     }
 
     protected void showSortItems() {
-        System.out.println("\nSort music tracks:");
-        System.out.println("1 - by name");
-        System.out.println("2 - by duration");
-        System.out.println("3 - by style");
-        System.out.println("4 - by name, then by duration");
-        System.out.println("5 - by name, then by style");
-        System.out.println("6 - by duration, then by name");
-        System.out.println("7 - by duration, then by style");
-        System.out.println("8 - by style, then by name");
-        System.out.println("9 - by style, then by duration");
-        System.out.println("0 - Don't sort\n");
-        lastExecutionResult += ("\nSort music tracks:\n");
-        lastExecutionResult += ("1 - by name\n");
-        lastExecutionResult += ("2 - by duration\n");
-        lastExecutionResult += ("3 - by style\n");
-        lastExecutionResult += ("4 - by name, then by duration\n");
-        lastExecutionResult += ("5 - by name, then by style\n");
-        lastExecutionResult += ("6 - by duration, then by name\n");
-        lastExecutionResult += ("7 - by duration, then by style\n");
-        lastExecutionResult += ("8 - by style, then by name\n");
-        lastExecutionResult += ("9 - by style, then by duration\n");
-        lastExecutionResult += ("0 - Don't sort\n\n");
+        System.out.println("\nSort music tracks:\n" +
+                "1 - by name\n" +
+                "2 - by duration\n" +
+                "3 - by style\n" +
+                "4 - by name, then by duration\n" +
+                "5 - by name, then by style\n" +
+                "6 - by duration, then by name\n" +
+                "7 - by duration, then by style\n" +
+                "8 - by style, then by name\n" +
+                "9 - by style, then by duration\n" +
+                "0 - Don't sort\n");
+        lastExecutionResult += "\nSort music tracks:\n" +
+                "1 - by name\n" +
+                "2 - by duration\n" +
+                "3 - by style\n" +
+                "4 - by name, then by duration\n" +
+                "5 - by name, then by style\n" +
+                "6 - by duration, then by name\n" +
+                "7 - by duration, then by style\n" +
+                "8 - by style, then by name\n" +
+                "9 - by style, then by duration\n" +
+                "0 - Don't sort\n\n";
     }
 
     private int getChoice() {
@@ -151,8 +151,8 @@ public class SortDisc implements Command {
                     e.printStackTrace();
                 }
         }
-        if (executor.lastExecutionResult != null && userChoice != 0)
-            lastExecutionResult += '\n' + executor.lastExecutionResult;
+        if (userChoice >= 1 && userChoice <= 9)
+            lastExecutionResult += "Enter your choice: " + userChoice + '\n';
         if (userChoice != 0)
             Logger.log("Sorted.");
     }

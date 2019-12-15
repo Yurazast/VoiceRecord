@@ -25,10 +25,10 @@ public class TimeStringToIntArray {
                 Logger.log("ERROR: parseTimeString failed: " + duration);
                 throw new NumberFormatException("parseTimeString failed: " + duration);
         }
-        if (m < 0 || m > 59 || s < 0 || s > 59 || h < 0 || h > 23){
+        if (m < 0 || m > 59 || s < 0 || s > 59 || h < 0 || h > 23) {
             Logger.log("ERROR: parseTimeString range error: " + duration);
             throw new NumberFormatException("parseTimeString range error: " + duration);
         }
-        return new Integer[]{ h, m, s };
+        return new Integer[]{h, m, s};
     }
 }

@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c39057b-a544-4ea4-a889-e86b6dd52d9f" name="Default Changelist" comment="Update LICENSE" />
+    <list default="true" id="0c39057b-a544-4ea4-a889-e86b6dd52d9f" name="Default Changelist" comment="Update LICENSE">
+      <change beforePath="$PROJECT_DIR$/.idea/copyright/Copyright.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copyright/Copyright.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UNITTEST/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UNITTEST/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UNITTEST/commandTest/PrintDiscTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UNITTEST/commandTest/PrintDiscTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UNITTEST/commandTest/SortDiscTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UNITTEST/commandTest/SortDiscTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UNITTEST/logTest/LoggerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UNITTEST/logTest/LoggerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UNITTEST/menuTest/MenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UNITTEST/menuTest/MenuTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UNITTEST/musicTest/DiscTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UNITTEST/musicTest/DiscTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UNITTEST/musicTest/MusicTrackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UNITTEST/musicTest/MusicTrackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UNITTEST/undoRedoTest/UndoRedoManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UNITTEST/undoRedoTest/UndoRedoManagerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/command/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/command/SortDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/command/SortDisc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/convertTime/SecondsToTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/convertTime/SecondsToTime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/convertTime/TimeStringToIntArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/convertTime/TimeStringToIntArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/email/EmailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/email/EmailSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/music/MusicTrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/music/MusicTrack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/undoRedo/UndoRedoManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/undoRedo/UndoRedoManager.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +52,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="copyright.profiles" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">

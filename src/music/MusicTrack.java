@@ -52,26 +52,25 @@ public class MusicTrack {
     }
 
     private void calcDuration() {
-        if (this.getTrackLength() == null) {
+        if (this.getTrackLength() == null)
             this.setTrackLength(SecondsToTime.parseTime(this.getDurationInSeconds()));
-        } else {
+        else
             this.setDurationInSeconds(TimeToSeconds.parseTime(this.getTrackLength()));
-        }
     }
 
-    private void checkTrackLength(){
+    private void checkTrackLength() {
         this.setTrackLength(checkTrackLength(this.getTrackLength()));
     }
 
-    public static String checkTrackLength(String track){
-        if(track.length() != 8){
+    public static String checkTrackLength(String track) {
+        if (track.length() != 8) {
             Integer[] time = TimeStringToIntArray.convertTime(track);
             return (String.format("%02d:%02d:%02d", time[0], time[1], time[2]));
         }
         return track;
     }
 
-    public boolean isInRange(Integer start, Integer end){
+    public boolean isInRange(Integer start, Integer end) {
         return this.getDurationInSeconds() >= start && this.getDurationInSeconds() <= end;
     }
 

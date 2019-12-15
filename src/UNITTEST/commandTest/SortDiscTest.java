@@ -43,7 +43,8 @@ public class SortDiscTest {
                 "7 - by duration, then by style\n" +
                 "8 - by style, then by name\n" +
                 "9 - by style, then by duration\n" +
-                "0 - Don't sort\n\n";
+                "0 - Don't sort\n\n" +
+                "Enter your choice: 3\n";
         assertEquals(expected, sd.getLastExecutionResult());
         assertEquals(newDisc.getDisc(), disc.getDisc());
     }

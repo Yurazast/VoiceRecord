@@ -9,7 +9,7 @@ import static org.junit.Assert.assertEquals;
 
 public class PrintDiscTest {
     Disc disc = new Disc();
-    Executor executor= new Executor(disc);
+    Executor executor = new Executor(disc);
     PrintDisc pd = new PrintDisc(disc);
 
     @Test

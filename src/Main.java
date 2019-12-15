@@ -1,8 +1,8 @@
 /******************************************************************************
  * Copyright © 2019 by Yurii Zastavnyi                                        *
  *                                                                            *
- * Program: VoiceRecord v4.2.6                                                *
- * Last changed: 15/12/2019, 15:16                                            *
+ * Program: VoiceRecord v4.2.7                                                *
+ * Last changed: 15/12/2019, 19:34                                            *
  *                                                                            *
  * All rights reserved.                                                       *
  * Permission is hereby granted, free of charge, to any person obtaining a    *
@@ -38,9 +38,3 @@ public class Main {
             new Menu().run(new Scanner(System.in));
     }
 }
-
-/*
-The_Sound_of_Silence
-rock
-3:05
- */

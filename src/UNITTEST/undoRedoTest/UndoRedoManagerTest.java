@@ -8,6 +8,7 @@ import org.junit.Test;
 import undoRedo.UndoRedoManager;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNull;
 
 public class UndoRedoManagerTest {
     private Disc disc = new Disc();
@@ -58,8 +59,7 @@ public class UndoRedoManagerTest {
         urm.execute(new PrintDisc(disc));
         urm.undo();
         urm.redo();
-        String expected = null;
-        assertEquals(expected, urm.lastExecutionResult);
+        assertNull(urm.lastExecutionResult);
     }
 
     @Test

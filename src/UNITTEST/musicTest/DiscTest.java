@@ -3,16 +3,25 @@ package musicTest;
 import executor.Executor;
 import music.Disc;
 import music.MusicTrack;
+import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 public class DiscTest {
-    Disc disc = new Disc();
-    Disc newDisc = new Disc();
-    Executor executor1 = new Executor(disc);
-    Executor executor2 = new Executor(newDisc);
+    Disc disc;
+    Disc newDisc;
+    Executor executor1;
+    Executor executor2;
+
+    @Before
+    public void setup() {
+        disc = new Disc();
+        newDisc = new Disc();
+        executor1 = new Executor(disc);
+        executor2 = new Executor(newDisc);
+    }
 
     @Test
     public void getDiskTest() {

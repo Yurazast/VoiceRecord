@@ -1,17 +1,26 @@
 package menuTest;
 
 import menu.Menu;
+import org.junit.Before;
 
 import java.util.Scanner;
 
 import static org.junit.Assert.assertEquals;
 
 public class MenuTest {
+    String input;
+    Scanner scanner;
+    Menu m;
+
+    @Before
+    public void setup() {
+        input = "2\n4\n8\n0\n";
+        scanner = new Scanner(input);
+        m = new Menu();
+    }
+
     @org.junit.Test
     public void runTest() throws InterruptedException {
-        String input = "2\n4\n8\n0\n";
-        Scanner scanner = new Scanner(input);
-        Menu m = new Menu();
         m.run(scanner);
         String expected = "\n1 - Enter music tracks from keyboard\n" +
                 "2 - Get music tracks from file\n" +

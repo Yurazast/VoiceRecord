@@ -11,7 +11,7 @@ public class LoggerTest {
             log("Just a Unit Test");
         } catch (Exception e) {
             success = false;
-        }finally {
+        } finally {
             assertTrue(success);
         }
     }

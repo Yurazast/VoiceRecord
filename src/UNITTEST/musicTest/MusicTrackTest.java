@@ -1,6 +1,7 @@
 package musicTest;
 
 import music.MusicTrack;
+import org.junit.Before;
 import org.junit.Test;
 
 import static music.MusicTrack.checkTrackLength;
@@ -8,7 +9,12 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 public class MusicTrackTest {
-    private MusicTrack mt = new MusicTrack("testTrack", "0:52:1", "jazz");
+    private MusicTrack mt;
+
+    @Before
+    public void setup() {
+        mt = new MusicTrack("testTrack", "0:52:1", "jazz");
+    }
 
     @Test
     public void getNameTest() {

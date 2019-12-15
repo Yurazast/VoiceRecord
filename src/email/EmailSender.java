@@ -3,7 +3,8 @@ package email;
 import log.Logger;
 
 import javax.mail.*;
-import javax.mail.internet.*;
+import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeMessage;
 import java.util.Arrays;
 import java.util.Properties;
 import java.util.stream.Collectors;

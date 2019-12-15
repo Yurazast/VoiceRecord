@@ -81,7 +81,7 @@ public class UndoRedoManager {
     public void redoList() {
         if (redoStack.empty())
             System.out.println("empty");
-        else{
+        else {
             lastExecutionResult = "";
             System.out.println("Redo list:");
             lastExecutionResult += "Redo list:\n";

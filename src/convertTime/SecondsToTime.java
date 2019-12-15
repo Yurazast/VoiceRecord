@@ -10,11 +10,11 @@ public class SecondsToTime {
         }
         int h = 0, m = 0, s = 0;
 
-        while (duration-3600 >= 0) {
+        while (duration - 3600 >= 0) {
             duration -= 3600;
             h++;
         }
-        while (duration-60 >= 0) {
+        while (duration - 60 >= 0) {
             duration -= 60;
             m++;
         }
