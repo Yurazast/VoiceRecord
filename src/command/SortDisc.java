@@ -12,6 +12,17 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class SortDisc implements Command {
+    static String[] choices = new String[]{
+            "by name",
+            "by duration",
+            "by style",
+            "by name, then by duration",
+            "by name, then by style",
+            "by duration, then by name",
+            "by duration, then by style",
+            "by style, then by name",
+            "by style, then by duration"
+    };
     private Disc disc;
     private Disc previousDisc = new Disc();
     private Executor executor;
@@ -92,18 +103,6 @@ public class SortDisc implements Command {
         }
         return scanner.nextInt();
     }
-
-    static String[] choices = new String[]{
-            "by name",
-            "by duration",
-            "by style",
-            "by name, then by duration",
-            "by name, then by style",
-            "by duration, then by name",
-            "by duration, then by style",
-            "by style, then by name",
-            "by style, then by duration"
-    };
 
     protected void perform(int userChoice) {
         Function<MusicTrack, String> name = MusicTrack::getName;

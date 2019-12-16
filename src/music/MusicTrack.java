@@ -27,6 +27,14 @@ public class MusicTrack {
         calcDuration();
     }
 
+    public static String checkTrackLength(String track) {
+        if (track.length() != 8) {
+            Integer[] time = TimeStringToIntArray.convertTime(track);
+            return (String.format("%02d:%02d:%02d", time[0], time[1], time[2]));
+        }
+        return track;
+    }
+
     public String getName() {
         return name;
     }
@@ -62,14 +70,6 @@ public class MusicTrack {
         this.setTrackLength(checkTrackLength(this.getTrackLength()));
     }
 
-    public static String checkTrackLength(String track) {
-        if (track.length() != 8) {
-            Integer[] time = TimeStringToIntArray.convertTime(track);
-            return (String.format("%02d:%02d:%02d", time[0], time[1], time[2]));
-        }
-        return track;
-    }
-
     public boolean isInRange(Integer start, Integer end) {
         return this.getDurationInSeconds() >= start && this.getDurationInSeconds() <= end;
     }
@@ -92,9 +92,10 @@ public class MusicTrack {
 
     @Override
     public String toString() {
-        return "name='" + name + '\'' +
-                ", trackLength='" + trackLength + '\'' +
-                ", durationInSeconds=" + durationInSeconds +
-                ", style='" + style + '\'';
+        return String.format(" | %-30s | %-12s | %-13s | %s", centerAlign(name, 30), centerAlign(trackLength, 12), centerAlign(durationInSeconds.toString(), 13), centerAlign(style, 16));
+    }
+
+    private String centerAlign(String s, int width) {
+        return String.format("%" + (s.length() + (width - s.length()) / 2) + "s", s);
     }
 }

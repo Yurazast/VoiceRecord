@@ -74,7 +74,7 @@ public class MusicTrackTest {
 
     @Test
     public void toStringTest() {
-        String expected = "name='testTrack', trackLength='00:52:01', durationInSeconds=3121, style='jazz'";
+        String expected = " |           testTrack            |   00:52:01   |     3121      |       jazz";
         assertEquals(expected, mt.toString());
     }
 }

@@ -5,23 +5,19 @@
       <change beforePath="$PROJECT_DIR$/.idea/copyright/Copyright.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copyright/Copyright.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UNITTEST/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UNITTEST/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UNITTEST/commandTest/CommandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UNITTEST/commandTest/CommandTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UNITTEST/commandTest/FindTrackLengthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UNITTEST/commandTest/FindTrackLengthTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UNITTEST/commandTest/PrintDiscTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UNITTEST/commandTest/PrintDiscTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UNITTEST/commandTest/SortDiscTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UNITTEST/commandTest/SortDiscTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UNITTEST/logTest/LoggerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UNITTEST/logTest/LoggerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UNITTEST/copyright/CopyrightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UNITTEST/copyrightTest/CopyrightTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UNITTEST/executor/ExecutorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UNITTEST/executorTest/ExecutorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UNITTEST/menuTest/MenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UNITTEST/menuTest/MenuTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UNITTEST/musicTest/DiscTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UNITTEST/musicTest/DiscTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UNITTEST/musicTest/MusicTrackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UNITTEST/musicTest/MusicTrackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UNITTEST/undoRedoTest/UndoRedoManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UNITTEST/undoRedoTest/UndoRedoManagerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/command/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/command/Command.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/command/SortDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/command/SortDisc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/convertTime/SecondsToTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/convertTime/SecondsToTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/convertTime/TimeStringToIntArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/convertTime/TimeStringToIntArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/email/EmailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/email/EmailSender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/copyright/Copyright.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/copyright/Copyright.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/executor/Executor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/executor/Executor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/music/MusicTrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/music/MusicTrack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/undoRedo/UndoRedoManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/undoRedo/UndoRedoManager.java" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,7 +45,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="copyright.profiles" />
@@ -58,18 +54,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="JUnit.UNITTEST">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -100,6 +84,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration>$USER_HOME$/.subversion</configuration>
   </component>
@@ -126,7 +122,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -136,5 +134,35 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Update LICENSE" />
     <option name="LAST_COMMIT_MESSAGE" value="Update LICENSE" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="100" y="127" width="1658" height="853" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1576537153577">
+      <screen x="0" y="27" width="1858" height="1053" />
+    </state>
+    <state x="100" y="127" width="1658" height="853" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.27.1858.1053@0.27.1858.1053" timestamp="1576537153577" />
+    <state width="1812" height="863" key="GridCell.Tab.0.bottom" timestamp="1576537401194">
+      <screen x="0" y="27" width="1858" height="1053" />
+    </state>
+    <state width="1812" height="863" key="GridCell.Tab.0.bottom/0.27.1858.1053@0.27.1858.1053" timestamp="1576537401194" />
+    <state width="1812" height="863" key="GridCell.Tab.0.center" timestamp="1576537401194">
+      <screen x="0" y="27" width="1858" height="1053" />
+    </state>
+    <state width="1812" height="863" key="GridCell.Tab.0.center/0.27.1858.1053@0.27.1858.1053" timestamp="1576537401194" />
+    <state width="1812" height="863" key="GridCell.Tab.0.left" timestamp="1576537401193">
+      <screen x="0" y="27" width="1858" height="1053" />
+    </state>
+    <state width="1812" height="863" key="GridCell.Tab.0.left/0.27.1858.1053@0.27.1858.1053" timestamp="1576537401193" />
+    <state width="1812" height="863" key="GridCell.Tab.0.right" timestamp="1576537401194">
+      <screen x="0" y="27" width="1858" height="1053" />
+    </state>
+    <state width="1812" height="863" key="GridCell.Tab.0.right/0.27.1858.1053@0.27.1858.1053" timestamp="1576537401194" />
+    <state x="412" y="131" width="1024" height="852" key="SettingsEditor" timestamp="1576537001059">
+      <screen x="0" y="27" width="1858" height="1053" />
+    </state>
+    <state x="412" y="131" width="1024" height="852" key="SettingsEditor/0.27.1858.1053@0.27.1858.1053" timestamp="1576537001059" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/VoiceRecord$Main.ic" NAME="Main Coverage Results" MODIFIED="1576537272697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/VoiceRecord$UNITTEST.ic" NAME="UNITTEST Coverage Results" MODIFIED="1576537040236" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

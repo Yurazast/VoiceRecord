@@ -14,15 +14,38 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 
 public class Executor {
-    Disc disc;
     public String lastExecutionResult;
+    Disc disc;
 
     public Executor(Disc disc) {
         this.disc = disc;
     }
 
+    private static <T> T returnFirst(T first, T second) {
+        return first;
+    }
+
+    private static String checkCount(int count) {
+        if (count == 0)
+            return ("No matches found.");
+        else if (count == 1)
+            return ("1 match found:");
+        else
+            return (count + " matches found:");
+    }
+
+    private static String checkCounter(int count) {
+        if (count == 0)
+            return ("no music tracks.");
+        else if (count == 1)
+            return ("1 music track.");
+        else
+            return (count + " music tracks.");
+    }
+
     public void getMusicTracksFromInput(Scanner scanner) {
         Logger.log("Started input from keyboard...");
+        int counter = 0;
         while (true) {
             System.out.print("Enter name of a track ('n' to stop input): ");
             String name = scanner.next();
@@ -38,14 +61,16 @@ public class Executor {
                 String length = scanner.next();
                 disc.addMusicTrack(new MusicTrack(name, length, style));
             }
-            Logger.log("Created a new music track: " + disc.getDisc().get(disc.getDiscSize() - 1));
+            counter++;
         }
+        Logger.log("Created " + checkCounter(counter));
         Logger.log("Ended input.");
     }
 
     public void getMusicTracksFromFile() {
         Logger.log("Started input from file...");
         Scanner scanner;
+        int counter = 0;
         try {
             scanner = new Scanner(new File("/" + System.getProperty("user.name") + "/IdeaProjects/VoiceRecord/src/MusicTracks.txt"));
         } catch (FileNotFoundException e) {
@@ -65,8 +90,9 @@ public class Executor {
                 String style = scanner.next();
                 disc.addMusicTrack(new MusicTrack(name, length, style));
             }
-            Logger.log("Created a new music track: " + disc.getDisc().get(disc.getDiscSize() - 1));
+            counter++;
         }
+        Logger.log("Created " + checkCounter(counter));
         Logger.log("Ended input.");
     }
 
@@ -113,12 +139,8 @@ public class Executor {
             Logger.log(checkCount(count).replaceFirst(".$", "."));
         }
 
-        System.out.println("\n" + checkCount(count));
+        System.out.println('\n' + checkCount(count) + '\n');
         return matches;
-    }
-
-    private static <T> T returnFirst(T first, T second) {
-        return first;
     }
 
     public void sortDisc(Function... f) {
@@ -133,21 +155,12 @@ public class Executor {
         disc.getDisc().sort(byStyle);
     }
 
-    private static String checkCount(int count) {
-        if (count == 0)
-            return ("No matches found.");
-        else if (count == 1)
-            return ("1 match found:");
-        else
-            return (count + " matches found:");
-    }
-
     public void printDisk() {
         if (this.disc.isDiskEmpty())
             System.out.println("No music tracks");
         else {
             Logger.log("Printing music tracks...");
-            System.out.println("\nDisc has those music tracks:");
+            System.out.println("\nDisc has those music tracks:\n");
             print(this.disc.getDisc());
             Logger.log("Printed.");
         }
@@ -157,9 +170,11 @@ public class Executor {
         if (disk.isEmpty())
             return;
         lastExecutionResult = "";
+        System.out.println(" N |\t\t\t  Name  \t\t\t| Track length | Duration(sec) | \t  Style");
+        System.out.println("--------------------------------------------------------------------------------------");
         AtomicInteger count = new AtomicInteger();
-        disk.forEach(mc -> System.out.println(count.incrementAndGet() + ":\t" + mc));
+        disk.forEach(mc -> System.out.println(" " + count.incrementAndGet() + mc));
         count.set(0);
-        disk.forEach(mc -> lastExecutionResult += (count.incrementAndGet() + ":\t" + mc + '\n'));
+        disk.forEach(mc -> lastExecutionResult += (" " + count.incrementAndGet() + mc + '\n'));
     }
 }

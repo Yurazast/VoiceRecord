@@ -25,12 +25,12 @@ public class FindTrackLengthTest {
     @Test
     public void executeTest() {
         ftl.execute();
-        String expected = "1:\tname='Poor_Little_Fool', trackLength='00:02:32', durationInSeconds=152, style='rock-n-roll'\n" +
-                "2:\tname='Venus', trackLength='00:02:14', durationInSeconds=134, style='pop'\n" +
-                "3:\tname='The_Chipmunk_Song', trackLength='00:02:21', durationInSeconds=141, style='pop'\n" +
-                "4:\tname='Stuck_on_You', trackLength='00:02:18', durationInSeconds=138, style='pop'\n" +
-                "5:\tname='The_Twist', trackLength='00:02:42', durationInSeconds=162, style='rock-n-roll'\n" +
-                "6:\tname='Sleep_Walk', trackLength='00:02:20', durationInSeconds=140, style='rock'\n";
+        String expected = " 1 |        Poor_Little_Fool        |   00:02:32   |      152      |   rock-n-roll\n" +
+                " 2 |             Venus              |   00:02:14   |      134      |       pop\n" +
+                " 3 |       The_Chipmunk_Song        |   00:02:21   |      141      |       pop\n" +
+                " 4 |          Stuck_on_You          |   00:02:18   |      138      |       pop\n" +
+                " 5 |           The_Twist            |   00:02:42   |      162      |   rock-n-roll\n" +
+                " 6 |           Sleep_Walk           |   00:02:20   |      140      |       rock\n";
         assertEquals(expected, ftl.getLastExecutionResult());
     }
 

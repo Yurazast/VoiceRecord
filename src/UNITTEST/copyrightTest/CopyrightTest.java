@@ -1,4 +1,6 @@
-package copyright;
+package copyrightTest;
+
+import copyright.Copyright;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -9,7 +11,7 @@ import java.text.SimpleDateFormat;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.fail;
 
-public class CopyrightTest {
+public class CopyrightTest extends Copyright {
 
     @org.junit.Test
     public void printTest() {
@@ -17,7 +19,7 @@ public class CopyrightTest {
         try {
             expected = "\n-------------------------------------------------------------------------\n" +
                     "Copyright (c) 2019 by Yurii Zastavnyi\n\n" +
-                    "Program: VoiceRecord v4.2.6\n" +
+                    "Program: VoiceRecord v4.2.8\n" +
                     "Last changed: " + new SimpleDateFormat("dd/MM/yyy HH:mm").format(Files.getLastModifiedTime(Paths.get("../VoiceRecord"), LinkOption.NOFOLLOW_LINKS).toMillis()) +
                     "\n\nAll rights reserved.\n" +
                     "Permission is hereby granted, free of charge, to any person obtaining a\n" +

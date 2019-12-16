@@ -8,10 +8,10 @@ import undoRedo.UndoRedoManager;
 import java.util.Scanner;
 
 public class Menu {
-    private UndoRedoManager manager;
-    protected boolean exit;
-    private Disc disc;
     public String lastExecutionResult;
+    protected boolean exit;
+    private UndoRedoManager manager;
+    private Disc disc;
 
     public Menu() {
         manager = new UndoRedoManager();

@@ -1,8 +1,8 @@
 /******************************************************************************
  * Copyright © 2019 by Yurii Zastavnyi                                        *
  *                                                                            *
- * Program: VoiceRecord v4.2.7                                                *
- * Last changed: 15/12/2019, 19:34                                            *
+ * Program: VoiceRecord v4.2.8                                                *
+ * Last changed: 17/12/2019, 00:56                                            *
  *                                                                            *
  * All rights reserved.                                                       *
  * Permission is hereby granted, free of charge, to any person obtaining a    *

@@ -13,12 +13,13 @@ import java.util.Arrays;
 import java.util.stream.Collectors;
 
 public class Copyright {
+    protected static String lastExecutionResult;
     private static char[] copyright;
 
     static {
         try {
             copyright = ("Copyright (c) 2019 by Yurii Zastavnyi\n\n" +
-                    "Program: VoiceRecord v4.2.6\n" +
+                    "Program: VoiceRecord v4.2.8\n" +
                     "Last changed: " + new SimpleDateFormat("dd/MM/yyy HH:mm").format(Files.getLastModifiedTime(Paths.get("../VoiceRecord"), LinkOption.NOFOLLOW_LINKS).toMillis()) +
                     "\n\nAll rights reserved.\n" +
                     "Permission is hereby granted, free of charge, to any person obtaining a\n" +
@@ -39,8 +40,6 @@ public class Copyright {
             }
         }
     }
-
-    static String lastExecutionResult;
 
     public static void print() throws InterruptedException {
         System.out.println("\n-------------------------------------------------------------------------");

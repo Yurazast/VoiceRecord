@@ -19,6 +19,17 @@ public class CommandTest {
         this.command = command;
     }
 
+    @Parameterized.Parameters
+    public static List<Command> instancesToTest() {
+        return Arrays.asList(
+                new FileInputTest().fi,
+                new FindTrackLengthTest().ftl,
+                new KeyboardInputTest().ki,
+                new PrintDiscTest().pd,
+                new SortDiscTest().sd
+        );
+    }
+
     @Test
     public void getName() {
         assertNotNull(command.getName());
@@ -38,16 +49,5 @@ public class CommandTest {
     @Test
     public void getLastExecutionResult() {
         assertNull(Command.lastExecutionResult);
-    }
-
-    @Parameterized.Parameters
-    public static List<Command> instancesToTest() {
-        return Arrays.asList(
-                new FileInputTest().fi,
-                new FindTrackLengthTest().ftl,
-                new KeyboardInputTest().ki,
-                new PrintDiscTest().pd,
-                new SortDiscTest().sd
-        );
     }
 }
