@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c39057b-a544-4ea4-a889-e86b6dd52d9f" name="Default Changelist" comment="Update LICENSE">
-      <change beforePath="$PROJECT_DIR$/.idea/copyright/Copyright.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/copyright/Copyright.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UNITTEST/commandTest/CommandTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UNITTEST/commandTest/CommandTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UNITTEST/commandTest/FindTrackLengthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UNITTEST/commandTest/FindTrackLengthTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UNITTEST/commandTest/PrintDiscTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UNITTEST/commandTest/PrintDiscTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UNITTEST/copyright/CopyrightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UNITTEST/copyrightTest/CopyrightTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UNITTEST/executor/ExecutorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UNITTEST/executorTest/ExecutorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UNITTEST/menuTest/MenuTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UNITTEST/menuTest/MenuTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UNITTEST/musicTest/MusicTrackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UNITTEST/musicTest/MusicTrackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/command/SortDisc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/command/SortDisc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/copyright/Copyright.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/copyright/Copyright.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/executor/Executor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/executor/Executor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/menu/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/music/MusicTrack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/music/MusicTrack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +29,15 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="copyright.profiles" />
@@ -140,26 +132,50 @@
       <screen x="0" y="27" width="1858" height="1053" />
     </state>
     <state x="100" y="127" width="1658" height="853" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.27.1858.1053@0.27.1858.1053" timestamp="1576537153577" />
-    <state width="1812" height="863" key="GridCell.Tab.0.bottom" timestamp="1576537401194">
+    <state x="757" y="271" width="324" height="579" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1576539316010">
       <screen x="0" y="27" width="1858" height="1053" />
     </state>
-    <state width="1812" height="863" key="GridCell.Tab.0.bottom/0.27.1858.1053@0.27.1858.1053" timestamp="1576537401194" />
-    <state width="1812" height="863" key="GridCell.Tab.0.center" timestamp="1576537401194">
+    <state x="757" y="271" width="324" height="579" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.27.1858.1053@0.27.1858.1053" timestamp="1576539316010" />
+    <state width="1812" height="863" key="GridCell.Tab.0.bottom" timestamp="1576537646144">
       <screen x="0" y="27" width="1858" height="1053" />
     </state>
-    <state width="1812" height="863" key="GridCell.Tab.0.center/0.27.1858.1053@0.27.1858.1053" timestamp="1576537401194" />
-    <state width="1812" height="863" key="GridCell.Tab.0.left" timestamp="1576537401193">
+    <state width="1812" height="863" key="GridCell.Tab.0.bottom/0.27.1858.1053@0.27.1858.1053" timestamp="1576537646144" />
+    <state width="1812" height="863" key="GridCell.Tab.0.center" timestamp="1576537646143">
       <screen x="0" y="27" width="1858" height="1053" />
     </state>
-    <state width="1812" height="863" key="GridCell.Tab.0.left/0.27.1858.1053@0.27.1858.1053" timestamp="1576537401193" />
-    <state width="1812" height="863" key="GridCell.Tab.0.right" timestamp="1576537401194">
+    <state width="1812" height="863" key="GridCell.Tab.0.center/0.27.1858.1053@0.27.1858.1053" timestamp="1576537646143" />
+    <state width="1812" height="863" key="GridCell.Tab.0.left" timestamp="1576537646142">
       <screen x="0" y="27" width="1858" height="1053" />
     </state>
-    <state width="1812" height="863" key="GridCell.Tab.0.right/0.27.1858.1053@0.27.1858.1053" timestamp="1576537401194" />
-    <state x="412" y="131" width="1024" height="852" key="SettingsEditor" timestamp="1576537001059">
+    <state width="1812" height="863" key="GridCell.Tab.0.left/0.27.1858.1053@0.27.1858.1053" timestamp="1576537646142" />
+    <state width="1812" height="863" key="GridCell.Tab.0.right" timestamp="1576537646144">
       <screen x="0" y="27" width="1858" height="1053" />
     </state>
-    <state x="412" y="131" width="1024" height="852" key="SettingsEditor/0.27.1858.1053@0.27.1858.1053" timestamp="1576537001059" />
+    <state width="1812" height="863" key="GridCell.Tab.0.right/0.27.1858.1053@0.27.1858.1053" timestamp="1576537646144" />
+    <state width="1812" height="340" key="GridCell.Tab.1.bottom" timestamp="1576537646137">
+      <screen x="0" y="27" width="1858" height="1053" />
+    </state>
+    <state width="1812" height="340" key="GridCell.Tab.1.bottom/0.27.1858.1053@0.27.1858.1053" timestamp="1576537646137" />
+    <state width="1812" height="340" key="GridCell.Tab.1.center" timestamp="1576537646136">
+      <screen x="0" y="27" width="1858" height="1053" />
+    </state>
+    <state width="1812" height="340" key="GridCell.Tab.1.center/0.27.1858.1053@0.27.1858.1053" timestamp="1576537646136" />
+    <state width="1812" height="340" key="GridCell.Tab.1.left" timestamp="1576537646135">
+      <screen x="0" y="27" width="1858" height="1053" />
+    </state>
+    <state width="1812" height="340" key="GridCell.Tab.1.left/0.27.1858.1053@0.27.1858.1053" timestamp="1576537646135" />
+    <state width="1812" height="340" key="GridCell.Tab.1.right" timestamp="1576537646136">
+      <screen x="0" y="27" width="1858" height="1053" />
+    </state>
+    <state width="1812" height="340" key="GridCell.Tab.1.right/0.27.1858.1053@0.27.1858.1053" timestamp="1576537646136" />
+    <state x="412" y="131" width="1024" height="852" key="SettingsEditor" timestamp="1576539398424">
+      <screen x="0" y="27" width="1858" height="1053" />
+    </state>
+    <state x="412" y="131" width="1024" height="852" key="SettingsEditor/0.27.1858.1053@0.27.1858.1053" timestamp="1576539398424" />
+    <state x="585" y="381" key="com.intellij.ide.util.TipDialog" timestamp="1576537888200">
+      <screen x="0" y="27" width="1858" height="1053" />
+    </state>
+    <state x="585" y="381" key="com.intellij.ide.util.TipDialog/0.27.1858.1053@0.27.1858.1053" timestamp="1576537888200" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/VoiceRecord$Main.ic" NAME="Main Coverage Results" MODIFIED="1576537272697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
